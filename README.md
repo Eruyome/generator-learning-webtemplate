@@ -1,4 +1,6 @@
-# Web app generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-gulp-webapp.svg?branch=master)](http://travis-ci.org/yeoman/generator-gulp-webapp)
+# Web app generator 
+
+Warning: This project was started to learn about yeoman, grunt, and gulp. It is not maintained and may not work anymore.
 
 [Yeoman](http://yeoman.io) generator that scaffolds out a front-end web app using [Gulp](http://gulpjs.com/) for the build process.
 
@@ -13,8 +15,8 @@
 
 ## Getting Started
 
-- Install: `npm install -g generator-gal-webtemplate`
-- Run: `yo gal-webtemplate`
+- Install: `npm install -g generator-learning-webtemplate`
+- Run: `yo learning-webtemplate`
 - Run `gulp` for building and `gulp watch` for preview
 
 
