@@ -56,12 +56,12 @@ AppGenerator.prototype.askFor = function askFor() {
 	var comma = chalk.green(', ');
 	
 	console.log('');
-	console.log(chalk.white.bgBlue.bold('          _________    __        '));
-	console.log(chalk.white.bgBlue.bold('         / ____/   |  / /        '));
-	console.log(chalk.white.bgBlue.bold('        / / __/ /| | / /         '));
-	console.log(chalk.white.bgBlue.bold('       / /_/ / ___ |/ /___       '));
-	console.log(chalk.white.bgBlue.bold('      |_____/_/  |_/_____/       '));
-	console.log(chalk.white.bgBlue.bold('                                 '));
+   	console.log(chalk.white.bgBlue.bold('         _____________   ____________  ___  __________  ____        '));
+  	console.log(chalk.white.bgBlue.bold('        / ____/ ____/ | / / ____/ __ \/   |/_  __/ __ \/ __ \       '));
+ 	console.log(chalk.white.bgBlue.bold('       / / __/ __/ /  |/ / __/ / /_/ / /| | / / / / / / /_/ /       '));
+	console.log(chalk.white.bgBlue.bold('      / /_/ / /___/ /|  / /___/ _, _/ ___ |/ / / /_/ / _, _/        '));
+	console.log(chalk.white.bgBlue.bold('      \____/_____/_/ |_/_____/_/ |_/_/  |_/_/  \____/_/ |_|         '));
+	console.log(chalk.white.bgBlue.bold('                                                                    '));
 	console.log('');
 	console.log(chalk.green(' <<< GAL Web Project Template >>>'));
 	console.log(chalk.green(' <<< Out of the box I include ')+ s1 + comma + s2 + comma + s3 + comma + s4 + chalk.green(' and a ') + s5 + chalk.green(' to build your app. >>>'));
