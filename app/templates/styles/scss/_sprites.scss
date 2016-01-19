@@ -1,0 +1,18 @@
+@import "sprites/manifest";
+// Enable/Disable Sprite-Generation //
+// -----------------------------------------------------------------------------
+$self-build-sprite : no;
+
+@if $self-build-sprite == yes {
+
+    $sprite-sprite-dimensions : true;
+    $sprite-layout : 'smart';
+
+    $all-sprite: sprite-map("sprites/desktop/*.png", $spacing: 2px);
+    $all-sprite-retina: sprite-map("sprites/retina/*.png", $spacing: 4px);
+
+    @include sprite_custom_classes($all-sprite);
+    @media #{($hidpi)} {
+        @include sprite_custom_classes($all-sprite-retina, 2);
+    }
+}

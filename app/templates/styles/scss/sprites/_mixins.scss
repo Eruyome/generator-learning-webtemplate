@@ -1,0 +1,11 @@
+@import "../assets/manifest";
+
+@mixin sprite_custom_classes ($sprite-name, $ratio: 1) {
+    @each $i in sprite_names($sprite-name){
+        .sprite-#{$i}{
+            background: $sprite-name no-repeat sprite-position($sprite-name, $i);
+            @include sprite-dimensions($sprite-name, $i);
+            background-size: sprite-width($sprite-name) / $ratio !important;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "private": true,
+  "dependencies": {
+	"jquery": "~1.11.0",
+	"normalize-scss": "~3.0.2",
+	<% if (includeBootstrap) { %>
+		"bootstrap-sass-official": "~3.1.1",
+	<% } %>
+    <% if (includeModernizr) { %>
+		"modernizr": "~2.6.2",
+	<% } %>
+	<% if (includeMomentJS) { %>
+		"moment": "~2.9.0",
+	<% } %>
+	<% if (includeBxSlider) { %>
+		"bxslider-4": "~4.2.3",
+	<% } %>
+	<% if (includeJQueryUI) { %>
+		"jquery-ui": "~1.11.0",
+	<% } %>
+	<% if (includeUnderscoreJS) { %>
+		"underscore": "~1.7.0",
+	<% } %> 
+	<% if (includeMagnific) { %>
+		"magnific-popup": "~1.0.0",
+	<% } %> 	
+	<% if (includeVideoJS) { %>
+		"video.js": "~4.12.5",
+	<% } %> 
+	<% if (includeFlowplayer) { %>
+		"flowplayer": "git://github.com/flowplayer/flowplayer.git",
+	<% } %> 
+	"stipe": "git://github.com/Toadstool-Stipe/stipe",
+	"sass-css-importer": "git://github.com/chriseppstein/sass-css-importer.git"
+  },
+  "devDependencies": {}
+}

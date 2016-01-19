@@ -1,0 +1,26 @@
+node_modules
+dist
+.tmp
+app/bower_components
+test/bower_components
+test
+
+# Aptana Project Files
+.project
+
+# Netbeans IDE Files
+.idea/
+
+# Sass Files
+.sass-cache
+*.css.map
+.sass-cache/
+
+# SVN Folders
+.svn/
+
+# Windows Files and Caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+/.settings/
