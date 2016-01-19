@@ -1,9 +1,9 @@
 {
-  "name": "generator-gal-webtemplate",
+  "name": "generator-learning-webtemplate",
   "version": "1.0.2",
   "description": "Scaffold out a front-end web app using Sass (Compass) by default",
   "license": "BSD",
-  "repository": "git+ssh://git@git.gal:generator-gal-webtemplate",
+  "repository": "git+ssh://git@github.com:Eruyome/generator-learning-webtemplate.git",
   "author": "",
   "main": "app/index.js",
   "engines": {
