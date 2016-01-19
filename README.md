@@ -36,6 +36,9 @@ To install dependencies, run `bower install depName --save` to get the files, th
 
   Defaults to `mocha`. Can be switched for another supported testing framework like `jasmine`.
 
+## Screenshots 
+
+![Console Window](https://github.com/Eruyome/generator-learning-webtemplate/blob/master/generator.png?raw=true)
 
 ## License
 
